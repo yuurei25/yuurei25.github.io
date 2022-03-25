@@ -11,7 +11,7 @@ let currentContent;
 
 (function () {
 	let client = new XMLHttpRequest();
-	client.open("GET", "data.json");
+	client.open("GET", "articles/data.json");
 	client.onreadystatechange = (e) => {
 		if (client.readyState === 4 && client.status === 200) {
 			let response = client.responseText;
@@ -34,7 +34,7 @@ document.querySelector(".content-toggler").addEventListener("click", (e) => {
 function setCoreContent(content) {
 	// core.innerHTML = "";
 	let client = new XMLHttpRequest();
-	client.open("GET", content.permalink);
+	client.open("GET", `articles/src/${content.permalink}`);
 	client.onreadystatechange = (e) => {
 		if (client.readyState === 4 && client.status === 200) {
 			let text = client.responseText;
