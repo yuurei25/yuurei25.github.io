@@ -8,12 +8,16 @@ Pada aspek dalil, mereka tidak memiliki dalil 'aqly yang memperkuat pendapat mer
 
 Adapun dalil naqly mereka adalah Q.S. al-Baqarah ayat 31-33 :
 
+<div dir="rtl">
 (وَعَلَّمَ ءَادَمَ ٱلۡأَسۡمَاۤءَ كُلَّهَا ثُمَّ عَرَضَهُمۡ عَلَى ٱلۡمَلَـٰۤىِٕكَةِ فَقَالَ أَنۢبِـُٔونِی بِأَسۡمَاۤءِ هَـٰۤؤُلَاۤءِ إِن كُنتُمۡ صَـٰدِقِینَ ۝ قَالُوا۟ سُبۡحَـٰنَكَ لَا عِلۡمَ لَنَاۤ إِلَّا مَا عَلَّمۡتَنَاۤۖ إِنَّكَ أَنتَ ٱلۡعَلِیمُ ٱلۡحَكِیمُ ۝ قَالَ یَـٰۤـَٔادَمُ أَنۢبِئۡهُم بِأَسۡمَاۤىِٕهِمۡۖ فَلَمَّاۤ أَنۢبَأَهُم بِأَسۡمَاۤىِٕهِمۡ قَالَ أَلَمۡ أَقُل لَّكُمۡ إِنِّیۤ أَعۡلَمُ غَیۡبَ ٱلسَّمَـٰوَ ٰ⁠تِ وَٱلۡأَرۡضِ وَأَعۡلَمُ مَا تُبۡدُونَ وَمَا كُنتُمۡ تَكۡتُمُونَ)
 [سورة البقرة 31 - 33]
+</div>
 
 Dan mereka juga mengambil dalil dari isra'iliyyat pada kitab Sifr at-Takwin yang berbunyi:
 
+<div dir="rtl">
 (والله خلق من الطين جميع حيوانات الحقول، وجميع طيور السماء ثم عرضها على آدم ليرى كيف يسميها، ليحمل كلا منها الاسم الذي يضعه الإنسان، فوضع آدم أسماء لجميع الحيوانات المستأنسة، ولطيور السماء، ودواب الحقول...)
+</div>
 
 Pendapat ini kemudian ditentang oleh yang lainnya dengan alasan bahwa hubungan antara "التوقيف" dan "الاصطلاح" bukan merupakan hubungan yang bertolak belakang. Oleh karena itu, menafikan satu diantaranya tidak berarti memperkuat yang satunya lagi. Dalil naqly mereka pun tidak lepas dari pertentangan, bahwa kalimat "علم" dalam ayat tersebut dapat berarti bahwa Allah SWT memberikan kemampuan kepada manusia agar manusia dapat membuat bahasa mereka sendiri. Bahkan dalil yang mereka ambil dari isra'iliyyat pun malah berbalik menentang mereka, karena jelas-jelas disebutkan "فوضع آدم أسماء".
 
