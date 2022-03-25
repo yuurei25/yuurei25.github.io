@@ -1,0 +1,11 @@
+.core h1 {
+	/* text-align: center; */
+	/* background-color: var(--bs-dark); */
+	padding: 10px;
+	/* color: var(--bs-light); */
+}
+
+.core p {
+	text-align: justify;
+	text-indent: 2rem;
+}
