@@ -1,3 +1,13 @@
+String.prototype.isArabic = function () {
+	let reg = /\S/,
+		min = 1536,
+		max = 2303;
+
+	let charCode = this.charCodeAt(reg.exec(this).index);
+
+	return charCode >= 1536 && charCode <= 2303 ? true : false;
+};
+
 class CoreContent {
 	#converter;
 	#directory;
@@ -38,19 +48,60 @@ class CoreContent {
 
 	setContent(content) {
 		let client = new XMLHttpRequest();
-		let link = `${this.#directory}/src/${content.permalink}`;
+		let link = `${this.#directory}/${content.permalink}`;
 		client.open("GET", link);
 		client.onreadystatechange = (e) => {
 			if (client.readyState === 4 && client.status === 200) {
 				let text = client.responseText;
 				let html = this.#converter.makeHtml(text);
 				this.container.innerHTML = html;
-				this.#embedClasses();
 				this.currentContent = content;
+				this.#preProcessing();
 			}
 		};
 		client.send();
 		return this;
+	}
+
+	#preProcessing() {
+		this.container.querySelectorAll("*").forEach((e) => {
+			if (e.tagName === "IMG") this.#imgProcessing(e);
+			else if (e.tagName === "P") this.#pProcessing(e);
+		});
+		this.#embedClasses();
+	}
+
+	#imgProcessing(img) {
+		let link = img.src.split("/").slice(3).join("/");
+		img.src = `${this.#directory}/${link}`;
+
+		let setMaxWidth = () => {
+			let containerComputedStyle = window.getComputedStyle(
+				this.container
+			);
+			let containerWidth =
+				parseFloat(containerComputedStyle.width) -
+				(parseFloat(containerComputedStyle.paddingLeft) +
+					parseFloat(containerComputedStyle.paddingRight));
+
+			img.style.maxWidth = containerWidth + "px";
+		};
+
+		setMaxWidth();
+		window.addEventListener("orientationchange", () => {
+			setTimeout(() => {
+				setMaxWidth();
+			}, 100);
+		});
+	}
+
+	#pProcessing(p) {
+		if (p.innerText) {
+			if (p.innerText.isArabic()) {
+				console.log(p.style);
+				p.style.direction = "rtl";
+			}
+		}
 	}
 
 	#embedClasses() {
@@ -126,6 +177,7 @@ let core = document.querySelector("div.core");
 let coreStyle = {
 	h1: ["text-center", "p-2", "mb-3", "rounded", "text-light", "bg-dark"],
 	p: [],
+	// img: ["w-100"],
 };
 
 let coreContent = new NavigatedCoreContent(core, "articles", {

@@ -1,5 +1,9 @@
 # Ilmu Falak dan Metode Hisab
 
+![Image](img/Lukisan%20abad%20ke%2016%20dari%20ilmu%20falak%20Ottoman.jpeg)
+
+![Spiderman](../img/Spiderman.gif)
+
 ## Ilmu Falak
 
 Ilmu falak atau ilmu astronomi adalah cabang ilmu alam yang meneliti benda langit (seperti bintang, planet, komet, dll) serta fenomena-fenomena alam yang terjadi di luar atmosfer Bumi. Siklus peredaran benda-benda langit bersifat eksak. Karena itulah kalender dapat dibuat dengan menerapkan kaidah-kaidah tertentu dan pengamatan pada peredaran benda2 langit. Seperti kalender masehi yang mengacu pada peredaran matahari, dan kalender hijriyyah yang mengacu pada peredaran bulan.

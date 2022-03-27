@@ -1,17 +1,20 @@
 [
 	{
 		"title": "Ilmu Falak dan Metode Hisab",
-		"permalink": "ilmu-falak-dan-metode-hisab.md",
+		"permalink": "src/ilmu-falak-dan-metode-hisab.md",
+		"image": "img/Lukisan abad ke 16 dari ilmu falak Ottoman.jpeg",
 		"language": "id"
 	},
 	{
 		"title": "Detect Browser Back Button",
-		"permalink": "detect-browser-back-button.md",
+		"permalink": "src/detect-browser-back-button.md",
+		"image": "img/JavaScript-code.jpg",
 		"language": "id"
 	},
 	{
 		"title": "Tiga Pendapat Tentang Kemunculan Bahasa",
-		"permalink": "tiga-pendapat-tentang-kemunculan-bahasa.md",
+		"permalink": "src/tiga-pendapat-tentang-kemunculan-bahasa.md",
+		"image": "img/Languages.jpeg",
 		"language": "id"
 	}
 ]

@@ -1,5 +1,7 @@
 # Detect Browser Back Button
 
+![Image](img/JavaScript-code.jpg)
+
 (Note: As per Sharky's feedback, I've included code to detect backspaces)
 
 So, I've seen these questions frequently on SO, and have recently run into the issue of controlling back button functionality myself. After a few days of searching for the best solution for my application (Single-Page with Hash Navigation), I've come up with a simple, cross-browser, library-less system for detecting the back button.
