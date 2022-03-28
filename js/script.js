@@ -91,7 +91,7 @@ class CoreContent {
 		window.addEventListener("orientationchange", () => {
 			setTimeout(() => {
 				setMaxWidth();
-			}, 100);
+			}, 150);
 		});
 	}
 
